@@ -12,7 +12,7 @@ class Hero{
         this->health = health;
         this->level = level;
 
-        cout << "Add. of this->" << this << endl;
+        cout << "Address of this->" << this << endl;
 
     }
     Hero(){

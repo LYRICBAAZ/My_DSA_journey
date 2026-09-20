@@ -38,4 +38,5 @@ int main(){
 
     cout << sizeof(shubham) << endl;
 
+    return 0;
 }

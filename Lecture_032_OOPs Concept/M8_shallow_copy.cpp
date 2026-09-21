@@ -18,7 +18,8 @@ public:
             *this->name = *name;
             this->name++;
             name++;
-        }                                        */
+        }                                       
+*/
     }
 
     // Shallow Copy Constructor

@@ -11,7 +11,7 @@ class Hero {
 
 int main(){
 
-    // Creation of object
+    // Creation of  object
     Hero shubham;
 
     cout << "size : "<<sizeof(shubham) << endl;

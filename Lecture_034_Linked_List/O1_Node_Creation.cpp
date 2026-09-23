@@ -19,5 +19,5 @@ int main(){
     NODE * A2;
     A2 = new NODE(4);          // Dynamically linked list
     A1.print();
-    A2->print();
+    A2->print();     // (*A2).print();
 }

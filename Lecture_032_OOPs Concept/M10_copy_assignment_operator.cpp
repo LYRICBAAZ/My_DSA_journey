@@ -30,3 +30,7 @@ int main(){
     A.print();
     B.print();
 }
+/*
+Manually we can create out copy assignment operator
+Default copy assignment operator shallow copy krta hai..
+*/

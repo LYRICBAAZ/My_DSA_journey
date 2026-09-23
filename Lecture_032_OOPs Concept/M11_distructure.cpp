@@ -19,3 +19,6 @@ int main(){
     Hero *B = new Hero();
     delete B;
 }
+
+
+// delete B; Execute hone se phle constructure call hota hai....

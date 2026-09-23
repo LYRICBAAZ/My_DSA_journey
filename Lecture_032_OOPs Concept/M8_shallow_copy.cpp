@@ -26,7 +26,8 @@ public:
     Hero(Hero &temp){
         cout << "Shallow Copy Constructor" << endl;
         this->health = temp.health;
-        this->name = temp.name;   //  pointer copy (same address)   sara problem yahi hai shallow copy ka...
+        this->name = temp.name;    // ⭐ SHALLOW COPY
+        //  pointer copy (same address)   sara problem yahi hai shallow copy ka...
     }
 
     void print(){

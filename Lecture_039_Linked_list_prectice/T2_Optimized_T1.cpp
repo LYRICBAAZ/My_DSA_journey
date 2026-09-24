@@ -10,7 +10,7 @@ class Node{
         next = NULL;
     }
 };
-
+  
 void createLinkedList(Node * &head,int arr[],int index,int size){
     if(head == NULL){
         head = new Node(arr[index]);

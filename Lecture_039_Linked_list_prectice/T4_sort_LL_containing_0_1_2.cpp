@@ -9,7 +9,7 @@ class Node{
         data = value;
         next = NULL;
     }
-};
+}; 
 
 void createLinkedList(Node * &head,int arr[],int index,int size){
     if(head == NULL){

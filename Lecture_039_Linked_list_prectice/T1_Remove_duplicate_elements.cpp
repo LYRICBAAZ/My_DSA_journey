@@ -21,7 +21,7 @@ void createLinkedList(Node * &head,int arr[],int index,int size){
         Node * temp = new Node(arr[i]);
         prev->next = temp;
         prev = temp;
-    }
+    }  
 }
 
 void printing(Node * head){

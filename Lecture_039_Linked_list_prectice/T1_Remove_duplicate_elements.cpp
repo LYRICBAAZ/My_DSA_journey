@@ -15,7 +15,7 @@ void createLinkedList(Node * &head,int arr[],int index,int size){
     if(head == NULL){
         head = new Node(arr[index]);
         index++;
-    }
+    } 
     Node * prev = head;
     for(int i = index; i<size; i++){
         Node * temp = new Node(arr[i]);

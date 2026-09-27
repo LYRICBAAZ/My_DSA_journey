@@ -13,6 +13,10 @@ class Node{
 };
 
 Node* clone(Node* head){
+    if(head==NULL){
+        return head;
+    }
+
     Node* head1 = head;
     Node* temp = new Node(0);
     Node* tail = temp;

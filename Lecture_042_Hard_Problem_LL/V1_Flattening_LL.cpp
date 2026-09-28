@@ -52,7 +52,7 @@ Node* merge(Node* &head1,Node* &head2){
                 head2 = head2->down;
                 tail->down = NULL;
             }
-            else{
+            else{ 
                 tail->down = head2;
                 tail = tail->down;
                 head2 = head2->down;

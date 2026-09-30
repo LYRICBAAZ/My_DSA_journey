@@ -56,7 +56,7 @@ class Stack{
 int main(){
     Stack s(5);
     s.push(5);
-    s.push(8);
+    s.push(8); 
     s.pop();
     cout << s.peek() << endl;
     cout << s.IsEmpty() << endl;

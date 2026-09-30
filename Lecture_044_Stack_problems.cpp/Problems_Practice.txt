@@ -9,7 +9,7 @@
 9: Get min at pop:
 
 
-1: Next Greater Element: 
+1: Next Greater Element: 2 approach forward and backword 
 2: Next Smaller Element: 
 3: Smallest Number on Left:
 4: Stock Span:

@@ -1,3 +1,5 @@
+---------GFG Problems of Stack-----------
+
 1: Reverse Array:
 2: Insert an Element at the Bottom of a Stack:
 3: Make the array beautiful:

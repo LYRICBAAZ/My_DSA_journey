@@ -61,4 +61,6 @@ int main(){
     cout << s.peek() << endl;
     cout << s.IsEmpty() << endl;
     cout << s.IsSize() << endl;
+
+    return 0;
 }

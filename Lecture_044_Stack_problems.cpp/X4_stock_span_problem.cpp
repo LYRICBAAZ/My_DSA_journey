@@ -1,3 +1,4 @@
+// Left me kitne smaller element hai including curr.
 #include<bits/stdc++.h>
 using namespace std;
 int main(){

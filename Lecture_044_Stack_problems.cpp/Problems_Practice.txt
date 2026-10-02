@@ -12,3 +12,5 @@
 10: Largest rectangle in histogram
 11: Maximal rectangle
 12: Celebrity Problem
+13: Maximum of Minimum for every window size.
+14: get Minimum Element from stack:

@@ -9,3 +9,6 @@
 7: Backspace String Compare: 
 8: Print Bracket Number: 
 9: Get min at pop:
+10: Largest rectangle in histogram
+11: Maximal rectangle
+12: Celebrity Problem

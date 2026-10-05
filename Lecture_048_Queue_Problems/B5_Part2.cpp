@@ -1,10 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
 string solve(string s){
-    vector<int>v(26,0);
-    queue<char>q;
-    for(int i=0;i<v.size();i++){
-        
+    vector<int> v(26, 0);
+    queue<char> q;
+    string ans;
+
+    for(int i = 0; i < s.size(); i++){
+        v[s[i] - 'a']++;
+        if(v[s[i] - 'a'] == 1){
+            q.push(s[i]);
+        }
+        while(!q.empty() && v[q.front() - 'a'] > 1){
+            q.pop();
+        }
+        if(q.empty())
+            ans.push_back('#');
+        else
+            ans.push_back(q.front());
     }
     return ans;
 }
@@ -23,21 +35,3 @@ int main(){
 
     return 0;
 }
-unordered_map<char,int>m;
-    string temp;
-    string ans;
-    for(int i=0;i<s.size();i++){
-        bool check = true;
-        temp.push_back(s[i]);
-        m[s[i]]++;
-        for(int j=0;j<temp.size();j++){
-            if(m[s[j]]<=1){
-                ans.push_back(s[j]);
-                check=false;
-                break;
-            }
-        }
-        if(check){
-            ans.push_back('#');
-        }
-    }

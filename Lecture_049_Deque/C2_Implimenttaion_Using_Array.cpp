@@ -30,7 +30,7 @@ public:
 
         // First element
         if(count == 0) {
-            front = rear = 0;
+            front = rear =  0;
         }
         else {
             front = (front - 1 + size) % size;

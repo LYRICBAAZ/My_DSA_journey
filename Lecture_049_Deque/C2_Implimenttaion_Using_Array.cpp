@@ -6,7 +6,7 @@ class Deque {
     int size;
     int front;
     int rear;
-    int count;
+    int count;  
 
 public:
 

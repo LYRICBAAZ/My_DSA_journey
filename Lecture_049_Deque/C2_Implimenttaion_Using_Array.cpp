@@ -128,7 +128,7 @@ public:
         return arr[rear];
     }
 
-    // Destructor
+    // Destructor call
     ~Deque() {
         delete[] arr;
     }

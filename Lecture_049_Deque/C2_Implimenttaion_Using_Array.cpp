@@ -42,7 +42,7 @@ public:
         cout << "Pushed in front: " << x << endl;
     }
 
-    // Push Back
+    // Push  Back
     void Push_back(int x) {
 
         if(count == size) {

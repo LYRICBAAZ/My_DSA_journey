@@ -33,3 +33,6 @@ int main(){
     cout << "Sqrt: " << dsqrt(n,isqrt(n));
 
 }
+//    float num = 2.643678;
+//    cout << fixed << setprecision(2) << num;
+//   output-: 2.64

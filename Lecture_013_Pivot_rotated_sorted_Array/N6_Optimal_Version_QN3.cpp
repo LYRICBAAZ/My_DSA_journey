@@ -31,7 +31,7 @@ int search(vector<int>& nums, int k) {
         }
     }
     return -1;
-}
+} 
 int main(){
     vector<int>nums={8,9,10,1,2,3,4,5,6,7};
     int key = search(nums,4);

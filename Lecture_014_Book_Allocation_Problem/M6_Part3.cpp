@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+/*
+Finds the median by binary searching the partition
+bw the left half and the right half.
+*/
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     // Binary search should run on smaller the array.
     if (nums1.size() > nums2.size()) {

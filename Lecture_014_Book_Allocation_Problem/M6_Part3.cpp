@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-Finds the median by binary searching the partition
+Finds the median by binary searching the  partition
 bw the left half and the right half.
 */
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {

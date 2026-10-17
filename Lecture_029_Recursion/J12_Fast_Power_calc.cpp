@@ -10,7 +10,7 @@ int powerCalc(int a, int b){
         return a;
     }
 
-    // Processing & recursive ; 
+    // Processing  ; 
 
     int half = powerCalc(a,b/2);
 
